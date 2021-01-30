@@ -42,8 +42,7 @@ body {
         display: none;
     }
     body {
-        background: url('cloud.png');
-        background-size: cover;
+        background-color: #8fcdf7;
     }
 }
 
@@ -61,7 +60,7 @@ body {
     left: 0;
     padding-right: 1rem;
     z-index: 2;
-    background-color: #a6a6a6 !important;
+    background-color: #37a0e7 !important;
     letter-spacing: 0.1rem;
 }
 
@@ -73,12 +72,12 @@ body {
 
 .nav-link {
     font-size: .9rem;
-    color: #4d4d4d !important;
+    color: #fff !important;
     text-align: right !important;
 }
 
 .nav-link:hover {
-    color: #fff !important;
+    color: #8fcdf7 !important;
     transition: .1s ease-in-out;
 }
 
@@ -95,14 +94,14 @@ body {
 }
 
 #name {
-    color: #fff;
+    color: #000;
     font-size: 2.7rem;
     text-align: center;
     letter-spacing: 1.5rem;
 }
 
 #strapline {
-    color:#fff;
+    color:#000;
     font-size: 1.3rem;
     text-align: center;
     letter-spacing: .3rem;
@@ -146,22 +145,6 @@ body {
     font-weight: 300;
 }
 
-.sociallinkcv {
-    color: #fff;
-    font-size: 1.4rem;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-left: 0.15rem;
-    letter-spacing: 0.1rem;
-    text-decoration: none;
-}
-
-.sociallinkcv:hover{
-    text-decoration: none !important;
-    color: #4d4d4d!important;
-    transition: .1s ease-in-out;
-}
 
 .sociallinks li a i {
     color: #fff;
@@ -174,7 +157,7 @@ body {
 }
 
 .sociallinks li a i:hover {
-    color: #4d4d4d;
+    color: #8fcdf7;
     transition: .1s ease-in-out;
     text-decoration: none !important;
 }
@@ -184,9 +167,9 @@ body {
     height: 1.3rem;
     width: 8rem;
     font-size: 0.85rem;
-    background-color: #bacfb2;
-    border: #bacfb2;
-    color: #000;
+    background-color: #37a0e7;
+    border: #37a0e7;
+    color: #fff;
     font-weight: 300;
     text-align: center !important;
     text-decoration: none !important;
@@ -194,8 +177,8 @@ body {
 
 #btnfind:hover {
     text-decoration: none !important;
-    background-color: #fff;
-    color: #000 !important;
+    background-color: #8fcdf7;
+    color: #fff !important;
     transition: .1s ease-in-out;
 }
 
@@ -208,7 +191,7 @@ body {
 }
 
 footer {
-    background-color: #a6a6a6;
+    background-color: #37a0e7;
     position: relative;
     padding-top: 1.6rem;
     margin-top: auto;

@@ -3,18 +3,37 @@
     {% extends 'base.html' %}
     {% block content %}
     
-    <div class="row justify-content-center" id="home">
-	<div class="col-12">
-		<div class="row justify-content-center">
-			<h1 id="name">About</h1>
-        </div>
-        <div class="row justify-content-center">
-			<img src="{{url_for('static', filename='images/service.png')}}" alt="Service. Man holding laptop" class="img-fluid">
-      </div>
-		<div class="row justify-content-center">
-			<p id="strapline">xxxx</p>
+    
+<div class="container main page-container">
+	
+	<div class="row justify-content-center">
+		<div class="col-sm-8 col-lg-5 order-12 order-lg-1">
+			<h4 class="page-title">Services</h4>
+			<p class="subhead">OFFICE 365</p>
+			<p class="page-text">
+				Do you want to move your business to the cloud? Look no further! We'll migrate your company into it.
+			</p>
+			<p class="subhead">CRM ONLINE</p>
+			<p class="page-text">
+				We deliver any bespoke CRM/AX solutions based on Microsoft Dynamics 365 Online
+            </p>
+            <p class="subhead">SHAREPOINT ONLINE</p>
+			<p class="page-text">
+				SharePoint solutions in the cloud
+            </p>
+            <p class="subhead">CLOUD</p>
+			<p class="page-text">
+				We put your every solution very high - into the clouds!
+            </p>
+            <p class="subhead">24/7 SUPPORT</p>
+			<p class="page-text">
+				We help you 24/7 with any technical questions or problems.
+			</p>
+			
 		</div>
-		
+		<div class="col-sm-8 col-lg-5 order-1 order-lg-12">
+			<img src="{{url_for('static', filename='images/service.png')}}" alt="Bird" class="img-fluid">
+    </div>
 		</div>
 	</div>
 
