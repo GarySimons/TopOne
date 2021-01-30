@@ -1,20 +1,22 @@
+<!-- code block to drop in content from base.html -->
+{% extends 'base.html' %}
+{% block content %}
 
-    <!-- code block to drop in content from base.html -->
-    {% extends 'base.html' %}
-    {% block content %}
-    
-    <div class="row justify-content-center" id="home">
-	<div class="col-12">
-		<div class="row justify-content-center">
-			<h1 id="name">TopOneCRM</h1>
-		</div>
-		<div class="row justify-content-center">
-			<p id="strapline">Providing Cloud Services that work for everyone</p>
-		</div>
-		
-		</div>
-	</div>
+<div class="row justify-content-center" id="home">
+    <div class="col-12">
+        <div class="row justify-content-center">
+            <h1 id="name">TopOneCRM</h1>
+        </div>
+        <div class="row justify-content-center">
+            <p id="strapline">Providing Cloud Services that work for everyone</p>
+        </div>
+    </div>
+
+<video id="videoBG" poster="cloud.png" autoplay muted loop>
+    <source src="{{url_for('static', filename='images/CloudsAnimationEffect_Full-HD.mp4')}}" type="video/mp4">
+</video>
+</div>
 
 
-    {% endblock %}
 
+{% endblock %}

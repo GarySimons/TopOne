@@ -2,6 +2,21 @@
     <!-- code block to drop in content from base.html -->
     {% extends 'base.html' %}
     {% block content %}
-    <h1>About Page</h1>
+    
+    <div class="row justify-content-center" id="home">
+	<div class="col-12">
+		<div class="row justify-content-center">
+			<h1 id="name">About</h1>
+        </div>
+        <div class="row justify-content-center">
+			<img src="{{url_for('static', filename='images/service.png')}}" alt="Service. Man holding laptop" class="img-fluid">
+      </div>
+		<div class="row justify-content-center">
+			<p id="strapline">xxxx</p>
+		</div>
+		
+		</div>
+	</div>
+
     {% endblock %}
 
