@@ -11,7 +11,12 @@
             <p id="strapline">Providing Cloud Services that work for everyone</p>
         </div>
     </div>
-
+    <div class="row justify-content-center">
+		<a id="btnfind" href="{{url_for('about')}}" aria-label="About">
+			<p>Find out more</p>
+			<span class="sr-only">Find out more</span>
+		</a>
+	</div>
 <video id="videoBG" poster="cloud.png" autoplay muted loop>
     <source src="{{url_for('static', filename='images/CloudsAnimationEffect_Full-HD.mp4')}}" type="video/mp4">
 </video>
