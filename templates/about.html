@@ -1,43 +1,42 @@
- <!-- code block to drop in content from base.html -->
+<!-- code block to drop in content from base.html -->
 
-    {% extends 'base.html' %}
-    {% block content %}
-    
-    
+{% extends 'base.html' %}
+{% block content %}
+
+
 <div class="container page-container" id="aboutmain">
-	
-	<div class="row justify-content-center">
-		<div class="col-sm-8 col-lg-3 order-12 order-lg-1">
-			<h2 id="pagetitle">Services</h2>
-			<p class="sectionhead">OFFICE 365</p>
-			<p class="blacktext">
-                Do you want to move your business to the cloud? 
+
+    <div class="row justify-content-center">
+        <div class="col-sm-8 col-lg-3 order-12 order-lg-1">
+            <h2 id="pagetitle">Services</h2>
+            <p class="sectionhead">OFFICE 365</p>
+            <p class="blacktext">
+                Do you want to move your business to the cloud?
                 Look no further! We'll migrate your company into it.
-			</p>
-			<h3 class="sectionhead">CRM ONLINE</h3>
-			<p class="blacktext">
-                We deliver any bespoke CRM/AX solutions based on 
+            </p>
+            <h3 class="sectionhead">CRM ONLINE</h3>
+            <p class="blacktext">
+                We deliver any bespoke CRM/AX solutions based on
                 Microsoft Dynamics 365 Online
             </p>
             <h3 class="sectionhead">SHAREPOINT ONLINE</h3>
-			<p class="blacktext">
-				SharePoint solutions in the cloud
+            <p class="blacktext">
+                SharePoint solutions in the cloud
             </p>
             <h3 class="sectionhead">CLOUD</h3>
-			<p class="blacktext">
-				We put your every solution very high - into the clouds!
+            <p class="blacktext">
+                We put your every solution very high - into the clouds!
             </p>
             <h3 class="sectionhead">24/7 SUPPORT</h3>
-			<p class="blacktext">
-				We help you 24/7 with any technical questions or problems.
-			</p>
-			
-		</div>
-		<div class="col-sm-8 col-lg-7 order-1 order-lg-12">
-			<img src="{{url_for('static', filename='images/service.png')}}" alt="Bird" class="img-fluid">
+            <p class="blacktext">
+                We help you 24/7 with any technical questions or problems.
+            </p>
+
+        </div>
+        <div class="col-sm-8 col-lg-7 order-1 order-lg-12 mb-7">
+            <img src="{{url_for('static', filename='images/service.png')}}" alt="Man with laptop" class="img-fluid">
+        </div>
     </div>
-		</div>
-	</div>
+</div>
 
-    {% endblock %}
-
+{% endblock %}

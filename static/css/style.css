@@ -66,7 +66,7 @@ body {
 }
 
 .navbar-brand {
-    font-size: 2rem;
+    font-size: 1.5rem !important;
     color: #fff !important;
     letter-spacing: 0.15rem;
     font-weight: 500;
@@ -108,12 +108,22 @@ body {
     font-weight: 500;
 }
 
-#strapline {
+#strapline1 {
+    color:#000;
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 0.25rem;
+    text-decoration: overline;
+    margin-bottom: -0.5rem;
+}
+
+#strapline2 {
     color:#000;
     font-size: 1.3rem;
     text-align: center;
     letter-spacing: 0.25rem;
 }
+
 
 #aboutme {
     color: #fff;
@@ -193,7 +203,7 @@ body {
 }
 
 .blacktext {
-    color: red;
+    color: #000;
     font-size: 1rem;
     line-height: 1.2rem;
     letter-spacing: 0.1rem; 
@@ -207,7 +217,7 @@ body {
 footer {
     background-color: #37a0e7;
     position: relative;
-    padding-top: 1.6rem;
+    padding-top: 1rem;
     margin-top: auto;
     text-align: center !important;
 }
