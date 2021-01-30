@@ -1,16 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hello Flask</title>
-</head>
-<body>
+
     <!-- code block to drop in content from base.html -->
     {% extends 'base.html' %}
     {% block content %}
-    <h1>Home Page</h1>
+    
+    <div class="row justify-content-center" id="home">
+	<div class="col-12">
+		<div class="row justify-content-center">
+			<h1 id="name">TopOneCRM</h1>
+		</div>
+		<div class="row justify-content-center">
+			<p id="strapline">Providing Cloud Services that work for everyone</p>
+		</div>
+		
+		</div>
+	</div>
+
+
     {% endblock %}
-</body>
-</html>
+
