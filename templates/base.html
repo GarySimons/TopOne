@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Python with Flask</title>
+</head>
+<body>
+    <!-- {{ url_for('index') }} is using Jinja templating-->
+    <nav>
+        <!-- Nav link for home page - links to index.html -->
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <!-- Nav link for about page - links to about.html -->
+        <li><a href="{{ url_for('about') }}">About</a></li>
+        <!-- Nav link for contact page - links to about.html -->
+        <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        <!-- Nav link for careers page - links to about.html -->
+        <li><a href="{{ url_for('careers') }}">Careers</a></li>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
