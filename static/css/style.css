@@ -168,7 +168,7 @@ body {
 
 #aboutmain {
     margin-top: 10vh;
-    min-height: 82vh;
+    min-height: 78vh;
     display: flex;
     flex-direction: column;
 }
