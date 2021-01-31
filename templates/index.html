@@ -21,7 +21,7 @@
             <span class="sr-only">Find out more</span>
         </a>
     </div>
-    <video id="videoBG" poster="cloud.png" autoplay muted loop>
+    <video id="videoBG" poster="{{url_for('static', filename='images/cloud.png')}}" autoplay muted loop>
         <source src="{{url_for('static', filename='images/CloudsAnimationEffect_Full-HD.mp4')}}" type="video/mp4">
     </video>
 </div>
